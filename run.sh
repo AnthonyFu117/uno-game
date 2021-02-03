@@ -4,7 +4,7 @@ echo "> Kill previous one:"
 kill -9 `cat pid.log` || true
 echo ""
 echo "> Run server:"
-nohup python3.8 uno_server.py > nohup.log &
+nohup python3.5 uno_server.py > nohup.log &
 echo $! > pid.log
 echo ""
 echo "> Track the output:"
