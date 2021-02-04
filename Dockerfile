@@ -10,7 +10,7 @@ RUN apt-get -y update
 RUN apt-get -y install git python3 python3-pip
 
 # Clone the git repository
-RUN git clone https://github.com/legomannetje/uno-game 
+RUN git clone https://github.com/antfu/uno-game 
 
 # Set the working directory
 WORKDIR uno-game
